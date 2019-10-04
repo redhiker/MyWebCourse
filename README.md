@@ -1,3 +1,0 @@
-"# MyWebCourse"
-
-Larry Irvine

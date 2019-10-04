@@ -1,0 +1,36 @@
+@import url('halloween.css');
+
+h2 { color: green; font-style: italic; font-size: 1.2em;}
+
+header h2 { color: black; background: #cedbe9;
+    background: -moz-linear-gradient(top,  #cedbe9 0%, #aac5de 17%, #6199c7 50%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+    background: -webkit-linear-gradient(top,  #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%);
+    background: linear-gradient(to bottom,  #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 );
+    }
+
+body { color: red; font-size: 100%; background: beige};
+
+p { color: blue; font-size: 16px;}
+
+#firstParagraph span { color: black;}
+
+p.two { color: green; font: bold 15px/100% Arial, sans-serif;}
+
+nav ul li a { color: white;
+    background-color: red;
+    list-style: none;
+    padding: 5px;}
+
+a:hover { color: red;
+    background-color: white;}
+
+header { text-align: center;}
+
+nav ul li {list-style: none; font-variant: small-caps; padding: 10px;}
+
+h1 {font-family: 'Courier New', Courier, monospace; font-size: 4em;}
+
+footer {font-weight: bold;}
+
+article { border-bottom: solid; padding: 15px;}
